@@ -1,0 +1,14 @@
+//Variables
+$first-color: #f00; //right way to write. for space use -
+$secondColor: #0f0; //OR in this way. for space use camelCase
+
+$redColor: red
+;
+body{
+    //background-color: $redColor;
+}
+
+header{
+    height: 50vh;
+    background-color: $redColor;
+}
