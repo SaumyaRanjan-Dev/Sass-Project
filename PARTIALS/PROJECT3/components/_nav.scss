@@ -1,0 +1,44 @@
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    font-family: "Arial", sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 1px;
+  }
+  
+  ul {
+    display: flex;
+    gap: 30px; /* Ensures consistent spacing */
+  }
+  
+  li {
+    list-style: none;
+    font-size: 1.2rem;
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  li:hover {
+    color: #f0a500;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit; /* Maintains consistent text color */
+  }
+  

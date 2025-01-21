@@ -1,0 +1,19 @@
+header {
+  height: 50vh;
+  background-color: skyblue;
+}
+
+section {
+  height: 20vh;
+  background-color: crimson;
+}
+
+article {
+  height: 30vh;
+  background-color: lightgreen;
+}
+
+footer {
+  height: 100vh;
+  background-color: lightcoral;
+}/*# sourceMappingURL=style.css.map */

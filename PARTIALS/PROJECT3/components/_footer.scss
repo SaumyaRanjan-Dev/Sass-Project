@@ -1,0 +1,27 @@
+/* Footer Section */
+footer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer input {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer textarea {
+    padding: 20px;
+    width: 420px;
+    height: 100px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 10px 20px;
+  }
+  
